@@ -1,5 +1,8 @@
 # ELEN644_Project: New Deep Multi-Modal Network for Book Genre Classification Based on Cover Images using Transformers
 
+## Folder and file Organization 
+We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder. Folders are contained within a google drive and will require access to the shared drives. 
+
 
 ## Problem Statment: 
 Most real-world interactions are usually multi-modal or multi-sensory, but historically, machine learning models are usually single-modal. Previous work in multi-modal book genre classification by book cover have shown promising results. However, with a 56.1\% top-1 accuracy for 30 classes, even the state-of-the-art models of yesteryear have plenty of room for improvement. Previous work in this area have employed limited methods and have not explored solutions using newer deep learning models. Limited work has also been done in determining the effects of applying pre-processing techniques for genre classification. For these reasons, this paper can serve as an additional data point to the community with respect to the larger question of deep learning architectures beyond CNNs for classification and the role of transformers in machine learning in general.
@@ -13,8 +16,6 @@ For our image-based modality, we implement a Vision Transformer (ViT) proposed b
 
 Since our investigation revolves around assessing the potential superiority of ViT, SWIN, BERT, RoBERTa, and image-preprocessing over ResNet-50 and Universal Sentence Encoder, we'll be using the baseline of Kundu et al. of 56.1\% top-1 accuracy on the BookCover30 dataset for training and validation. This dataset provided by Iwana et al. \cite{judge} consists of of 57,000 labeled book cover images split equally across 30 classes.
 
-## Folder and file Organization 
-We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder. 
 
 
 
