@@ -1,7 +1,7 @@
 # ELEN644_Project: New Deep Multi-Modal Network for Book Genre Classification Based on Cover Images using Transformers
 
 ## Folder and file Organization 
-We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder. Access to view the folders can be requested by sending an email to justinkkgoh@gmail.com.  
+We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder's README file. Access to view the folders can be obtained in section 6 of the accompanying report or requested by sending an email to justinkkgoh@gmail.com.  
 
 
 
