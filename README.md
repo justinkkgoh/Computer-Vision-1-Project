@@ -1,7 +1,8 @@
 # ELEN644_Project: New Deep Multi-Modal Network for Book Genre Classification Based on Cover Images using Transformers
 
 ## Folder and file Organization 
-We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder. Folders are contained within a google drive and will require access to the shared drives. 
+We have organized our folders based on the approaches we were applying for genre classification image-based, text-based and multimodal. Instructions to run the code for each approach is contained with each folder. Access to the folders can be obtained with the following url: 
+https://drive.google.com/drive/folders/1Lr8v-V8mKQb8VVfD1BurDXxzZI6p1qU-?usp=sharing 
 
 
 ## Problem Statment: 
@@ -14,7 +15,7 @@ Most real-world interactions are usually multi-modal or multi-sensory, but histo
 
 For our image-based modality, we implement a Vision Transformer (ViT) proposed by Dosvitsky et al.  and Shifted Window (SWIN) Transformer proposed by Liu et al.  For our text-based modality, we implement a Bidirectional Encoder Representation from Transformers (BERT) and a Robustly Optimized BERT Pretraining Approach (RoBERTa) language model. Lastly, we experiment with some image pre-processing techniques to determine if there is any impact on our models performance, particularly mean normalization, standardization, and Principal-Component-Analysis (PCA). This is based on work by Pal et al.
 
-Since our investigation revolves around assessing the potential superiority of ViT, SWIN, BERT, RoBERTa, and image-preprocessing over ResNet-50 and Universal Sentence Encoder, we'll be using the baseline of Kundu et al. of 56.1\% top-1 accuracy on the BookCover30 dataset for training and validation. This dataset provided by Iwana et al. \cite{judge} consists of of 57,000 labeled book cover images split equally across 30 classes.
+Since our investigation revolves around assessing the potential superiority of ViT, SWIN, BERT, RoBERTa, and image-preprocessing over ResNet-50 and Universal Sentence Encoder, we'll be using the baseline of Kundu et al. of 56.1\% top-1 accuracy on the BookCover30 dataset for training and validation. This dataset provided by Iwana et al.  consists of of 57,000 labeled book cover images split equally across 30 classes.
 
 
 
